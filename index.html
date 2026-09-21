@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anwesha Agarwal, business analytics portfolio spanning operations, machine learning, financial modelling, and responsible AI.">
+  <title>Anwesha Agarwal | Analytics portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to selected work</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Anwesha Agarwal, home">AA<span>.</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="https://github.com/Anweshaagarwal">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="intro">Anwesha Agarwal, MSc Business Analytics candidate in Singapore</p>
+        <h1 id="hero-title">I turn messy business questions into evidence people can act on.</h1>
+        <p class="hero-summary">Three years in financial-services consulting, product experience in AI, and hands-on work across SQL, Python, machine learning, causal analysis, and document retrieval.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#work">Review the evidence</a>
+          <a href="https://github.com/Anweshaagarwal">View GitHub profile</a>
+        </div>
+      </div>
+
+      <aside class="proof-ledger" aria-label="Capability evidence">
+        <div class="ledger-heading"><span>Capability</span><span>Evidence</span></div>
+        <div><span>SQL and operations</span><strong>23,040 hourly records</strong></div>
+        <div><span>Model validation</span><strong>123 untouched trading days</strong></div>
+        <div><span>Finance operations</span><strong>15 to 20 multinational groups yearly</strong></div>
+        <div><span>Responsible AI</span><strong>12 of 12 retrieval checks</strong></div>
+        <p>Every number comes from a project result or documented work example.</p>
+      </aside>
+    </section>
+
+    <section class="signal-bar" aria-label="Focus areas">
+      <span>Business analytics</span>
+      <span>Product analytics</span>
+      <span>Financial services</span>
+      <span>Responsible AI</span>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-intro">
+        <p>Selected work</p>
+        <h2 id="work-title">Analysis with a decision at the end.</h2>
+        <p>Choose a hiring lens. The projects stay the same, but the evidence most relevant to the role moves to the top.</p>
+        <div class="lens-controls" role="group" aria-label="Choose a hiring lens">
+          <button class="active" type="button" data-lens="analytics">Analytics</button>
+          <button type="button" data-lens="ai">AI and tech</button>
+          <button type="button" data-lens="product">Product</button>
+        </div>
+      </div>
+
+      <div class="project-list">
+        <article class="project project-feature" data-tags="analytics product">
+          <div class="project-visual operations-visual" aria-hidden="true">
+            <div class="ops-topline"><span>Service control</span><strong>92.4%</strong></div>
+            <div class="zone-row"><span>Airport</span><i style="--value:78%"></i><b>90.5%</b></div>
+            <div class="zone-row"><span>Harbour</span><i style="--value:84%"></i><b>91.7%</b></div>
+            <div class="zone-row"><span>Central</span><i style="--value:91%"></i><b>93.4%</b></div>
+            <div class="pilot-note"><span>Driver pilot</span><strong>+1.64 pp</strong><small>descriptive estimate</small></div>
+          </div>
+          <div class="project-copy">
+            <p class="project-type">New case study · SQL + Python</p>
+            <h3>Mobility operations analytics</h3>
+            <p>Built a reproducible SQLite pipeline over 23,040 synthetic zone-hour records. Diagnosed reliability gaps, measured rain and peak-hour effects, and evaluated a two-zone driver pilot.</p>
+            <dl>
+              <div><dt>Decision</dt><dd>Where to add driver supply</dd></div>
+              <div><dt>Method</dt><dd>Metric design, SQL, difference in differences</dd></div>
+              <div><dt>Guardrail</dt><dd>The pilot estimate is descriptive, not causal proof</dd></div>
+            </dl>
+            <a href="https://github.com/Anweshaagarwal/mobility-ops-analytics">Read the project</a>
+          </div>
+        </article>
+
+        <article class="project" data-tags="analytics">
+          <div class="project-copy">
+            <p class="project-type">Model validation · Python</p>
+            <h3>Rolling portfolio models</h3>
+            <p>Compared equal weight, OLS, LASSO, and Ridge portfolios with strict rolling windows and an untouched 2026 validation period. The work explains why lower volatility did not guarantee a better out-of-sample result.</p>
+            <dl>
+              <div><dt>Scale</dt><dd>98 assets and 126-day windows</dd></div>
+              <div><dt>Best validation drawdown</dt><dd>LASSO at -4.60%</dd></div>
+              <div><dt>Key finding</dt><dd>Equal weight led 2026 risk-adjusted returns</dd></div>
+            </dl>
+            <a href="https://github.com/Anweshaagarwal/rolling-portfolio-models">Inspect methods and results</a>
+          </div>
+          <figure class="project-image">
+            <img src="assets/portfolio-models.png" alt="Cumulative returns for four rolling portfolio models during the 2026 validation period">
+          </figure>
+        </article>
+
+        <article class="project" data-tags="ai product">
+          <div class="project-copy">
+            <p class="project-type">Document intelligence · Python</p>
+            <h3>Reinsurance document assistant</h3>
+            <p>Built source-grounded retrieval over a synthetic reinsurance corpus with citations, a small evaluation set, and documented controls for privacy, unsupported answers, and expert review.</p>
+            <dl>
+              <div><dt>Evaluation</dt><dd>12 of 12 top-document checks</dd></div>
+              <div><dt>Method</dt><dd>TF-IDF retrieval and grounded prompts</dd></div>
+              <div><dt>Limit</dt><dd>Small synthetic corpus, not production performance</dd></div>
+            </dl>
+            <a href="https://github.com/Anweshaagarwal/reinsurance-document-assistant">Open the prototype</a>
+          </div>
+          <div class="document-visual" aria-hidden="true">
+            <div class="doc-tabs"><span>Query</span><span>Sources</span></div>
+            <p>What should an underwriter check before accepting a risk?</p>
+            <div class="retrieval-line wide"></div>
+            <div class="retrieval-line"></div>
+            <div class="retrieval-source">01 · Underwriting guidelines</div>
+            <div class="retrieval-source">02 · Data governance</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div>
+        <p>Experience</p>
+        <h2 id="experience-title">Business context before code.</h2>
+      </div>
+      <div class="timeline">
+        <article><time>2026</time><div><h3>Propellus.AI</h3><p>Product management intern. Market research, product requirements, sprint planning, and roadmap support.</p></div></article>
+        <article><time>2024-26</time><div><h3>PwC Singapore</h3><p>Senior associate. Managed transfer-pricing work for 15 to 20 multinational groups each year with 100% on-time delivery. Evidence prepared for audits and negotiations helped reduce client tax penalties by 60% across relevant matters.</p></div></article>
+        <article><time>2022-24</time><div><h3>KPMG Singapore</h3><p>Associate. Analysed financial records, contracts, regulatory guidance, and operating structures across industries.</p></div></article>
+        <article><time>2026-27</time><div><h3>National University of Singapore</h3><p>MSc in Business Analytics.</p></div></article>
+        <article><time>2020</time><div><h3>Capital Square Partners</h3><p>Financial analyst intern. Built LBO and DCF models for a $50 million pharmaceutical company under multiple COVID-19 scenarios.</p></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <p>Available for analytics, product, and technology roles in Singapore.</p>
+      <h2>Have a problem that needs a clear answer?</h2>
+      <a href="https://github.com/Anweshaagarwal">View my GitHub work</a>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Anwesha Agarwal</span><span>Built around evidence, not buzzwords.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
